@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tubical Download</title>
+        <link rel="stylesheet" href="../static/index.css">
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <form action="/downloads", method="post">
+                <input autofocus name="link" placeholder="Write down the link" type="text">
+                <button type="submit">Go</button>
+                <br>
+                {{ result }}
+                <br>
+                <select name="format">
+                    <option>best</option>
+                    <option>low</option>
+                    <option>audio</option>
+                </select>
+            </form>
+        </div>    
+    </body>
+
+</html>

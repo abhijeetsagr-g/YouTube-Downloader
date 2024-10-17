@@ -1,0 +1,17 @@
+body {
+    background-color: #45474B;
+    color: #F5F7F8;
+    text-align: center;
+}
+
+input {
+    color: rgb(36, 36, 36);
+}
+
+select {
+    width: 100px;
+}
+
+.container {
+    background-color: #434548;
+}
